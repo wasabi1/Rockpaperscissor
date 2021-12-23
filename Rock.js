@@ -49,7 +49,7 @@ function game() {
        
     const computerSelection = computerPlay(items);
     //console.log(computerSelection);
-    const playerSelection = prompt("type your selection", "rock, paper, scissors");
+    const playerSelection = prompt("type your selection", "rock, paper, scissors").toLowerCase();
     console.log(playRound(playerSelection, computerSelection));   
     } while (i < 5);
 

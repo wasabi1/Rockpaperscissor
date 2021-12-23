@@ -1,4 +1,4 @@
-finished the first part of the game
+
 
 # Rockpaperscissor
 #making my first JavaScript game. before I start I want to write the sudocode here.
@@ -33,3 +33,16 @@ console.log(playRound(playerSelection, computerSelection()))
 
 
 
+# Part 2 of the game
+the goal here to make a function that allows the make to run multiple times
+I have two option. 1. i can copy and past the function i already have multiple times
+or 2. i put it inside a for-loop
+
+* ask for user input usingg prompt
+* run the playRound function five times
+* display the result in the console
+* after each run store the outcome in a variable
+* 
+
+let = 5
+for i = 0;  
